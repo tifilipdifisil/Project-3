@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'supportEmail' => 'pxantus@g.harvard.edu',
+    'nav' => [
+        '/passwordgenerator' => 'Password Generator',
+        '/about' => 'About',
+
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -13,8 +19,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
-
+    'name' => 'Project-3',
     /*
     |--------------------------------------------------------------------------
     | Application Environment
@@ -39,7 +44,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +57,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://project-3.xantus.me'),
 
     /*
     |--------------------------------------------------------------------------
