@@ -3,8 +3,10 @@
 return [
     'supportEmail' => 'pxantus@g.harvard.edu',
     'nav' => [
+        '/' => 'Home',
         '/passwordgenerator' => 'Password Generator',
         '/about' => 'About',
+
 
     ],
 

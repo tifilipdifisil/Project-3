@@ -1,29 +1,28 @@
-<!doctype html>
-<html>
-<head>
-    <title>@yield('title', 'Project-3')</title>
-    <meta charset='utf-8'>
-    <link href='/css/project3.css' type='text/css' rel='stylesheet'>
+    <!doctype html>
+    <html>
+    <head>
+        <title>@yield('title', 'Project-3')</title>
+        <meta charset='utf-8'>
+        <link href='/css/project3.css' type='text/css' rel='stylesheet'>
 
-    @stack('head')
-</head>
-<body>
+        @stack('head')
+    </head>
+    <body>
 
-<header>
+    <header>
 
-</header>
+    </header>
 
-<section>
-    @yield('content')
-</section>
+    <section>
+        @yield('content')
+    </section>
 
-<footer>
-    &copy; {{ date('Y') }}
-</footer>
+    <footer>
+        &copy; {{ date('Y') }}
+    </footer>
 
 
+    @stack('body')
 
-@stack('body')
-
-</body>
-</html>
+    </body>
+    </html>
