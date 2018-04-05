@@ -46,7 +46,7 @@
                 <button type='submit' value='generatepassword' class='button'>Generate Password</button>
             </form>
             @if($input1 == 1)
-                <p>Please add a number to generate your code.</p>
+                <p>Please add a number to the required field to generate your code.</p>
             @elseif($number && $symbol)
                 {{$combo}}
             @else
