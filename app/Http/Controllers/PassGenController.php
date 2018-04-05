@@ -14,7 +14,6 @@
             $this->validate($request, [
                 'input1' => 'numeric|max:8',
 
-
             ]);
 
             $input1 = $request->input('input1', '1');

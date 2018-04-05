@@ -5,7 +5,7 @@
     @endsection
 
     @push('head')
-        {{-- Page specific CSS includes should be defined here; this .css file does not exist yet, but we can create it --}}
+
         <link href='/css/passwordgenerator/passwordgenerator.css' type='text/css' rel='stylesheet'>
     @endpush
 
@@ -17,8 +17,9 @@
 
 
                 <label for='input1'>Number of Words</label><br>
-                <p class='detail'>* Required field</p>
+
                 <input type='text' id='input1' name='input1' value="{{old('input1','1')}}"/>
+                <p class='detail'>* Required field</p>
                 @include('modules.error-field', ['field' => 'input1'])
                 <br>
                 <label>OPTIONS</label>

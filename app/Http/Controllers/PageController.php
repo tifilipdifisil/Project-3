@@ -6,14 +6,14 @@
 
     class PageController extends Controller
     {
-    public function welcome()
-    {
-        return view('welcome');
-    }
+        public function welcome()
+        {
+            return view('welcome');
+        }
 
-    public function about()
-    {
-        return view('Project-3.about');
-    }
+        public function about()
+        {
+            return view('Project-3.about');
+        }
 
     }

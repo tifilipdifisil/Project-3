@@ -1,0 +1,12 @@
+    .error {
+
+        position: absolute;
+        top: 220px;
+        right: 0;
+        left: 80px;
+        color: #a94442; /* reddish */
+        text-align: left;
+        font-size: 1.2rem;
+        font-size: 12px;
+        font-style: italic;
+    }
