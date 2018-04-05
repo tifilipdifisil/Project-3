@@ -51,14 +51,8 @@
                 {{$combo}}
             @else
                 <p>Your Generated Code is </p>
-
                 <div id='answer'>{{$result}}</div>
-
-
             @endif
 
         </div>
-
-
-
     @endsection
